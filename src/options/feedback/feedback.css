@@ -1,0 +1,65 @@
+:root {
+	--header-height: 60px;
+}
+
+html[dark_mode='false'], html:not([dark_mode]) {
+	--body-color: #161616;
+	--body-background-color: #FAFAFA;
+	--label-color: #101010;
+	--box-shadow-color: rgba(0, 0, 0, 0.30);
+}
+
+html[dark_mode='true'] {
+  --body-color: #DDDDDD;
+  --body-background-color: #393939;
+  --label-color: #E9E9E9;
+  --box-shadow-color: rgba(127, 127, 127, 0.90);
+}
+
+body {
+	padding: var(--header-height) 10px 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+html, html * {
+	font-family: serif;
+}
+
+#back-button {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+
+	text-decoration: none;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var(--header-height);
+
+	background-color: var(--body-background-color);
+	border-bottom: 1px solid var(--label-color);
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+header h1 {
+	font-size: 26px;
+}
+
+main {
+	width: 500px;
+
+	display: flex;
+	flex-direction: column;
+}
