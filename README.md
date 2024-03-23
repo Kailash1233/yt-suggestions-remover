@@ -18,11 +18,6 @@ Completely free. Donations welcome — [Paypal](https://www.paypal.com/cgi-bin/w
 
 ---
 
-### Why I made it
-Motivated by an attempt to stymie the YouTube rabbit hole.
-
-The YouTube recommendation algorithm optimizes for the most _engaging_ videos, regardless of whether or not you are interested. Persistent exposure to these suggestions can result in a waste of your time. Download this add-on and remove unwanted suggestions as you please.
-
 Available for download at the links below:
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-s-suggestions)
 - [Chrome](https://chrome.google.com/webstore/detail/remove-youtube-suggestion/cdhdichomdnlaadbndgmagohccgpejae)
@@ -30,15 +25,15 @@ Available for download at the links below:
 ---
 
 ### Development
-This project is 100% open source. Created and maintained by me, [Lawrence Hook](https://lawrencehook.com).  
+This project is 100% open source.
 
-Have a feature request or found a bug? Feel free to create a Github issue, submit a PR, or contact me at lawrencehook@gmail.com.
+Have a feature request or found a bug? Feel free to create a Github issue, and submit a PR.
 
 The following commands will set up a Firefox dev environment.
 
 ```bash
-git clone https://github.com/lawrencehook/remove-youtube-suggestions.git
-cd remove-youtube-suggestions/src
+git clone https://github.com/Kailash1233/yt-suggestions-remover.git
+cd /yt-suggestions-remover/src
 npm install --global web-ext
 web-ext run
 ```
